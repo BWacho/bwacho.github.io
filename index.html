@@ -6,7 +6,9 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <script type="text/javascript" src="js/myScripts.js"></script>
         <link href="style/myStyle.css" rel="stylesheet" type="text/css"/>
+        <link href="style/NavBar.css" rel="stylesheet" type="text/css"/>
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,28 +17,23 @@ and open the template in the editor.
         <div id="header">
             <h1>Wacholtz</h1>
         </div>
-        <div id="left-side">
-            <div id="navBar">
-                Navigation<br>
-                <ul id="navItems">
-                    <li>
-                        one
-                    </li>
-                    <li>
-                        one
-                    </li>
-                    <li>
-                        two
-                    </li>
-                    <li>
-                        one
-                    </li>
-                    <li>
-                        one
-                    </li>
-                </ul>
-            </div>
+
+        <div class="navbar">
+          <a href="index.html">Home</a>
+          <a href="#news">News</a>
+          <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">Dropdown
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="index.">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          </div>
         </div>
+
+
         <div id="right-side">
 
             <p>
