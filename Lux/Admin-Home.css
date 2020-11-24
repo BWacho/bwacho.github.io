@@ -37,20 +37,19 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 272px;
+    min-height: 200px;
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 3.75rem;
-    margin-top: 29px;
-    margin-left: 0;
+    margin-top: 11px;
     margin-right: 0;
   }
 
   .u-section-1 .u-text-2 {
-    margin-left: 0;
+    font-size: 1rem;
+    margin-top: 10px;
     margin-right: 0;
-    margin-bottom: 29px;
+    margin-bottom: 11px;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 68px;
@@ -89,4 +88,14 @@
 
 .u-section-3 .u-text-5 {
   margin: 0 auto 60px 0;
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 271px;
+  }
+
+  .u-section-3 .u-text-5 {
+    margin-bottom: 50px;
+  }
 }
