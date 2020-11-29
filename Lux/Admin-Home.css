@@ -1,41 +1,43 @@
 .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/Banner.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/BannerConan1.jpg");
   background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 213px;
+  min-height: 273px;
 }
 
 .u-section-1 .u-text-1 {
-  font-size: 6rem;
+  font-size: 2.25rem;
   font-weight: 700;
-  margin: 18px auto 0;
-}
-
-.u-section-1 .u-text-2 {
-  margin: 18px auto 40px;
+  margin: 234px 837px 0 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 176px;
+    min-height: 338px;
   }
 
-  .u-section-1 .u-text-2 {
-    font-size: 1.25rem;
+  .u-section-1 .u-text-1 {
+    margin-top: 60px;
+    margin-right: 637px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 135px;
+  .u-section-1 .u-text-1 {
+    margin-right: 417px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 101px;
+    min-height: 332px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 6rem;
+    margin-right: 237px;
   }
 }
 
@@ -45,174 +47,79 @@
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: 11px;
+    font-size: 2.25rem;
     margin-right: 0;
-    font-size: 3rem;
-  }
-
-  .u-section-1 .u-text-2 {
-    font-size: 1rem;
-    margin-top: 10px;
-    margin-right: 0;
-    margin-bottom: 11px;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 557px;
+  min-height: 263px;
 }
 
 .u-section-2 .u-text-1 {
   font-size: 2.25rem;
-  margin: 10px auto 0 434px;
+  margin: 10px auto 0 0;
 }
 
 .u-section-2 .u-text-2 {
-  font-size: 1.875rem;
-  margin: 10px 0 0;
+  margin: 10px auto 0 0;
 }
 
 .u-section-2 .u-text-3 {
-  font-size: 1rem;
-  margin: 10px 0 0;
-}
-
-.u-section-2 .u-text-4 {
-  font-size: 1.875rem;
-  margin: 10px 0 0;
-}
-
-.u-section-2 .u-text-5 {
-  font-size: 1rem;
-  margin: 10px 0 0;
-}
-
-.u-section-2 .u-text-6 {
-  font-size: 1.875rem;
-  margin: 10px 0 0;
-}
-
-.u-section-2 .u-text-7 {
-  font-size: 1rem;
-  margin: 10px 0 0;
-}
-
-.u-section-2 .u-text-8 {
-  font-size: 1.875rem;
-  margin: 10px 0 0;
-}
-
-.u-section-2 .u-text-9 {
-  font-size: 1rem;
-  margin: 0;
-}
-
-.u-section-2 .u-line-1 {
-  transform-origin: left center 0px;
-  margin: 10px auto 10px 0;
-}
-
-@media (max-width: 1199px) {
-  .u-section-2 .u-text-1 {
-    margin-left: 357px;
-  }
-
-  .u-section-2 .u-line-1 {
-    height: 3px;
-    margin-right: initial;
-    margin-left: initial;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-2 .u-text-1 {
-    margin-left: 273px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-2 .u-text-1 {
-    margin-left: 205px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-2 .u-text-1 {
-    margin-left: 129px;
-  }
-}.u-section-3 .u-sheet-1 {
-  min-height: 69px;
-}.u-section-4 .u-sheet-1 {
-  min-height: 500px;
-}
-
-.u-section-4 .u-text-1 {
-  font-size: 2.25rem;
-  margin: 10px auto 0;
-}
-
-.u-section-4 .u-text-2 {
   margin: 15px auto 0 0;
 }
 
-.u-section-4 .u-text-3 {
-  margin: 20px auto 0 0;
-}
-
-.u-section-4 .u-btn-1 {
+.u-section-2 .u-btn-1 {
   padding: 0;
 }
 
-.u-section-4 .u-text-4 {
-  margin: 5px auto 0 0;
+.u-section-2 .u-text-4 {
+  margin: 10px auto 0 0;
 }
 
-.u-section-4 .u-text-5 {
-  margin: 20px auto 0 0;
+.u-section-2 .u-text-5 {
+  margin: 15px auto 0 0;
 }
 
-.u-section-4 .u-btn-2 {
+.u-section-2 .u-btn-2 {
   padding: 0;
 }
 
-.u-section-4 .u-text-6 {
-  margin: 5px auto 60px 0;
+.u-section-2 .u-text-6 {
+  margin: 10px auto 22px 0;
 }
 
 @media (max-width: 1199px) {
-  .u-section-4 .u-text-2 {
-    margin-top: 23px;
+  .u-section-2 .u-text-2 {
+    margin-top: 51px;
   }
 
-  .u-section-4 .u-text-3 {
+  .u-section-2 .u-text-3 {
     margin-top: -55px;
   }
 
-  .u-section-4 .u-text-4 {
+  .u-section-2 .u-text-4 {
     margin-top: 62px;
   }
 
-  .u-section-4 .u-text-5 {
+  .u-section-2 .u-text-5 {
     margin-top: 0;
   }
 
-  .u-section-4 .u-text-6 {
+  .u-section-2 .u-text-6 {
     margin-top: 0;
+    margin-bottom: 60px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-4 .u-text-1 {
-    margin-top: -30px;
+  .u-section-2 .u-text-2 {
+    margin-top: 170px;
   }
 
-  .u-section-4 .u-text-2 {
-    margin-top: -9px;
-  }
-
-  .u-section-4 .u-text-3 {
+  .u-section-2 .u-text-3 {
     margin-top: -194px;
   }
 
-  .u-section-4 .u-text-4 {
+  .u-section-2 .u-text-4 {
     margin-top: 0;
   }
 }
